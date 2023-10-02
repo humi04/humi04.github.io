@@ -71,3 +71,27 @@ header {
     display: flex;
     justify-content: center;
   }
+  .animated-text {
+    font-size: 30px;
+    text-align: center;
+    animation: loopText 1s linear infinite; 
+}
+
+@keyframes loopText {
+    0% {
+        color: red;
+    }
+    25% {
+        color: rgb(140, 4, 4);
+    }
+    50% {
+        color: red;
+    }
+    75% {
+        color: rgb(140, 4, 4);
+    }
+    100% {
+        color: red;
+    }
+    }
+}
