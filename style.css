@@ -25,7 +25,6 @@ header {
     backdrop-filter: blur(50px);
     color: #ad0404;
     text-align: center;
-    padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-shadow: 3px 3px 3px black;
     font-size: 30px;
@@ -52,6 +51,7 @@ header {
     margin-bottom: 10px;
     margin-right: 30px;
     border: 3px solid rgb(71, 71, 71);
+    flex: auto;
   
     }
   
