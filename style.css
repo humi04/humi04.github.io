@@ -72,7 +72,7 @@ header {
     justify-content: center;
   }
   .animated-text {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     animation: loopText 1s linear infinite; 
 }
@@ -92,6 +92,5 @@ header {
     }
     100% {
         color: red;
-    }
     }
 }
