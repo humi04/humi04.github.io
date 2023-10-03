@@ -14,7 +14,7 @@ body::before {
   width: 130%;
   height: 130%;
   background: inherit;
-  filter: blur(50px); 
+  filter: blur(10px); 
   z-index: -1; 
   
 }
