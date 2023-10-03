@@ -5,9 +5,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family:'Franklin Gothic Medium';
-    color: #fff;
-    
-    
 }
 body::before {  
   content: "";
@@ -22,46 +19,20 @@ body::before {
   
 }
 header {
-    background-color: #303030;
+    background-color: #232222;
     opacity: .95;
     backdrop-filter: blur(10px);
-    color: #ad0404;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-shadow: 3px 3px 3px black;
-    font-size: 60px;
+    font-size: 45px;
     display: block;
     border: 3px solid #5a1010;
     margin-bottom: 30px;
     
   }
-  a{
-    background-color: #ad0404;
-    color: #303030;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    border-radius:5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-    justify-content: center; 
-    align-items: center; 
-    height: 40px;
-    width: 550px; 
-    margin-top: 15px;
-    margin-bottom: -5px;
-    border: 3px solid rgb(71, 71, 71);  
-  
-    }
-  
-  a:hover{
-    background-color: #5a0505;
-    cursor: pointer;
-    color:#7b7b7b
-  }
   img{
-    border: 3px solid rgb(71, 71, 71);
+    border: 3px solid #5a1010;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 5px;
     width: 250px;
@@ -73,11 +44,6 @@ header {
     display: flex;
     justify-content: center;
   }
-  .animated-text {
-    font-size: 35px;
-    text-align: center;
-    animation: loopText 1s linear infinite; 
-}
 
 @keyframes loopText {
     0% {
@@ -98,16 +64,52 @@ header {
 }
 
 nav {
-
-  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.logo{
+  width: 250px;
+  border:none;
+  box-shadow: none;
+  margin-left: 100px;
+}
+.nav-links{
+padding: 28px 0;  
+margin-right: 150px;
+}
+.nav-links li{
+  display:inline-block;
+  margin: 0 15px;
+
+}
+.nav-links li a{
+  text-decoration: none;
+  color: #8f8f8f;
+  padding: 5px 0;
+  position: relative;
+}
+.nav-links li a:after{
+  content:'';
+  background: #ad0404;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom:0;
+  left: 0;
+  transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+  width: 100%;
+}
+
 footer {
-  background-color: #303030;
-  color: #ad0404;
+  background-color: #232222;
+  color: #8f8f8f;
   text-align: center;
   padding: 10px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: 3px solid rgb(71, 71, 71);
+  border: 3px solid #5a1010;
   font-size: 20px;
   position: fixed;
   bottom: 0;
