@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family:'Franklin Gothic Medium';
+    font-weight: bold;
 }
 body::before {  
   content: "";
@@ -15,8 +16,7 @@ body::before {
   height: 130%;
   background: inherit;
   filter: blur(10px); 
-  z-index: -1; 
-  
+  z-index: -1;  
 }
 header {
     background-color: #232222;
@@ -25,17 +25,21 @@ header {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-shadow: 3px 3px 3px black;
-    font-size: 45px;
+    font-size: 40px;
     display: block;
-    border: 3px solid #5a1010;
+    border: 7px solid transparent; 
+    border-image: linear-gradient(45deg, #310c0c, #da4343 ) 1; 
+    border-image-slice: 1;
     margin-bottom: 30px;
-    
   }
+
   img{
-    border: 3px solid #5a1010;
+    border: 7px solid transparent; 
+    border-image: linear-gradient(45deg, #310c0c, #da4343 ) 1; 
+    border-image-slice: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 5px;
-    width: 250px;
+    width: 240px;
     margin-bottom: 30px;
     height: auto;
     margin-top: 50px;
@@ -62,7 +66,6 @@ margin-right: 150px;
 .nav-links li{
   display:inline-block;
   margin: 0 15px;
-
 }
 .nav-links li a{
   text-decoration: none;
@@ -78,19 +81,20 @@ margin-right: 150px;
   position: absolute;
   bottom:0;
   left: 0;
-  transition: width 0.5s;
+  transition: width 0.3s;
 }
 .nav-links li a:hover::after{
   width: 100%;
 }
-
 footer {
   background-color: #232222;
   color: #8f8f8f;
   text-align: center;
   padding: 10px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border: 3px solid #5a1010;
+  border: 7px solid transparent; 
+  border-image: linear-gradient(45deg, #310c0c, #da4343 ) 1; 
+  border-image-slice: 1;
   font-size: 20px;
   position: fixed;
   bottom: 0;
