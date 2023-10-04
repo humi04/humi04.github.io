@@ -20,7 +20,7 @@ body::before {
 }
 header {
     background-color: #232222;
-    opacity: .95;
+    opacity: .92;
     backdrop-filter: blur(10px);
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -100,6 +100,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: .94;
+  opacity: .9;
   text-shadow: 3px 3px 3px black;
 }
