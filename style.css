@@ -32,7 +32,6 @@ header {
     border-image-slice: 1;
     margin-bottom: 30px;
   }
-
   img{
     border: 7px solid transparent; 
     border-image: linear-gradient(45deg, #310c0c, #da4343 ) 1; 
