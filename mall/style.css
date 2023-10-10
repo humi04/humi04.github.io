@@ -1,3 +1,52 @@
-body{
-    background-color: green;
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+img{
+    width: 1000px;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid: auto / 15% 85%;
+    font-family: 'Comic Sans MS';
+}
+
+aside{
+background-color: rgb(57, 117, 221);
+}
+
+.header {
+    padding: 5em 0;
+}
+
+.header__logo{
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1170417494.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.header__title{
+    text-align: center;
+    margin-top:  0.2em;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.nav__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__links a{
+text-decoration: none;
+color: inherit;
 }
