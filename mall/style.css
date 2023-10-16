@@ -1,3 +1,8 @@
+:root {
+    --aside-width: 15%
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -7,18 +12,22 @@ html, body {
 }
 
 img{
-    width: 1000px;
+    width: 490px;
 }
 
 body {
     margin: 0;
     display: grid;
-    grid: auto / 15% 85%;
+    grid: auto / var(--aside-width) 85%;
     font-family: 'Comic Sans MS';
 }
 
 aside{
 background-color: rgb(57, 117, 221);
+}
+.aside__wrapper{
+position: fixed;
+width: var(--aside-width);
 }
 
 .header {
@@ -36,7 +45,7 @@ background-color: rgb(57, 117, 221);
 .header__title{
     text-align: center;
     margin-top:  0.2em;
-    font-size: 48px;
+    font-size: 55px;
     font-weight: normal;
 }
 
@@ -46,7 +55,61 @@ background-color: rgb(57, 117, 221);
     padding: 0;
 }
 
+.nav__link{
+    text-align: center;
+}
+
+.nav__link + * {
+    padding-top: 2em;
+    position: relative;
+}
+
+.nav__link + *::before{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    top: 1em;
+    transform: translateX(-2%);
+}
+
 .nav__links a{
 text-decoration: none;
 color: inherit;
+font-family: 'Concert One', sans-serif;
+font-size: 50px;
+}
+
+.main__heading{
+    font-size: 90px;
+    text-align: center;
+}
+.main__text{
+    font-size: 20px;
+    
+}
+.main__text--center{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.main__content{
+    display: flex;
+    padding: 4em;
+    display: flex;
+}
+
+.main__content > * {
+    flex: 1 1 0;
+    padding: 1%;
+}
+
+.main__frame{
+    display: flex;
+    padding: 4em;
+    background-color: gray;
+    gap: 1em;
 }
