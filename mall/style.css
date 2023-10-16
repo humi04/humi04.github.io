@@ -1,7 +1,10 @@
 :root {
     --aside-width: 15%
 }
-
+body{
+    text-shadow: 10px 0 15px rgba(0, 0, 0, 0.3); 
+    background-color: rgb(212, 212, 212);
+}
 
 *{
     box-sizing: border-box;
@@ -13,25 +16,31 @@ html, body {
 
 img{
     width: 490px;
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.3); 
+    
 }
 
 body {
     margin: 0;
     display: grid;
     grid: auto / var(--aside-width) 85%;
-    font-family: 'Comic Sans MS';
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 aside{
 background-color: rgb(57, 117, 221);
+box-shadow: 10px 0 30px rgba(0, 0, 0, 0.3); 
+color: white;
 }
 .aside__wrapper{
 position: fixed;
 width: var(--aside-width);
+
 }
 
 .header {
     padding: 5em 0;
+    
 }
 
 .header__logo{
@@ -41,6 +50,10 @@ width: var(--aside-width);
     background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1170417494.jpg);
     background-size: cover;
     margin: 0 auto;
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.3); 
+
+
+
 }
 .header__title{
     text-align: center;
@@ -69,7 +82,7 @@ width: var(--aside-width);
     content: '';
     width: 50%;
     height: 1px;
-    background-color: black;
+    background-color: white;
     top: 1em;
     transform: translateX(-2%);
 }
@@ -78,21 +91,27 @@ width: var(--aside-width);
 text-decoration: none;
 color: inherit;
 font-family: 'Concert One', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 font-size: 50px;
 }
-
+.nav__links a:hover{
+    color: rgb(64, 64, 64);
+    content: '';
+}
 .main__heading{
-    font-size: 90px;
+    font-size: 100px;
     text-align: center;
 }
 .main__text{
-    font-size: 20px;
+    font-size: 23px;
+    box-shadow: 10px black;
     
 }
 .main__text--center{
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    font-size: 30px;
     
 }
 
@@ -112,4 +131,6 @@ font-size: 50px;
     padding: 4em;
     background-color: gray;
     gap: 1em;
+    box-shadow: 15px 0 15px rgba(0, 0, 0, 0.3); 
+
 }
