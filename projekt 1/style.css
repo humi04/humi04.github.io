@@ -1,27 +1,28 @@
 body{
-    text-shadow: 10px 0 15px rgba(0, 0, 0, 0.3); 
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(223, 217, 217);
     margin: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
 .aside_wrapper{
-    background-color: aqua;
+    background: linear-gradient(45deg, #A5AA98, #949b82);
+    position: relative;
 }
 
 .headerimg{
 width: 100%; 
 height: 100%;
-
 }
 
 aside {
     display: grid;
-    background-color: aqua;
     grid: auto / 69% 31%;
 }
 
 .header_images{
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
 }
@@ -42,21 +43,68 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100%;
-    text-align: center; 
+
 }
 
 .header_title {
     position: absolute;
     font-size: 50px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    top: 30%;
+    font-weight: 400;
+    top: 34%;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 61px;
    }
    .header_title2 {
     position: absolute;
-    font-size: 70px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    top: 38%
-
+    font-size: 80px;
+    top: 38%;
+    font-weight: 400;
+    font-family: 'Share Tech', sans-serif;
    }
+
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    margin-top: 600px;   
+    left: 300;
+ 
+   }
+
+.nav_links{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+        justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+
+}
+.nav_link{
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+    background-color: transparent;
+
+}
+.nav_links li a{
+    color: black;
+    background-color: transparent;
+    text-decoration:underline;
+  }
+  
+.nav_links li a:hover{
+    content:'';
+    color: rgb(105, 103, 103);
+}
