@@ -25,6 +25,8 @@ aside {
 .header_images{
     display: flex;
     flex-direction: column;
+    margin: 0;
+
 }
 
 
@@ -49,17 +51,21 @@ footer {
 .header_title {
     position: absolute;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 700;
     top: 34%;
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 61px;
+    font-style: italic;
+
    }
    .header_title2 {
     position: absolute;
     font-size: 80px;
     top: 38%;
-    font-weight: 400;
+    font-weight: 700;
     font-family: 'Share Tech', sans-serif;
+    font-style: italic;
+
    }
 
 
