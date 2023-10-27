@@ -35,10 +35,6 @@ main {
     background-color: red; 
 }
 
-footer {
-    width: 100%; 
-    background-color: pink;
-}
 
 .header{
     display: flex;
@@ -111,6 +107,46 @@ nav{
   }
   
 .nav_links li a:hover{
+    content:'';
+    color: rgb(105, 103, 103);
+}
+
+footer{
+    background-color: blue;
+    
+    
+}
+.nav_links_footer{
+    background-color: yellow;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    margin-top: 600px;   
+    left: 300;  
+    
+}
+.nav_link_footer{
+    background-color: chartreuse;
+    
+
+}
+.nav_links_footer li a{
+    color: black;
+    background-color: transparent;
+    text-decoration:underline;
+    list-style: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav_links_footer li a:hover{
     content:'';
     color: rgb(105, 103, 103);
 }
