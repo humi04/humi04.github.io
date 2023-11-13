@@ -20,6 +20,8 @@ height: 100%;
 aside {
     display: grid;
     grid: auto / 69% 31%;
+    box-shadow: 0px 5px 30px -5px #888888;
+
 }
 
 .header_images{
@@ -32,9 +34,64 @@ aside {
 
 main {
     width: 100%;
-    background-color: red; 
+    }
+.UPPER{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    margin-bottom: 100px;
 }
 
+.Main_items_upper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.Main_items_bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Main_title_upper{
+font-size: 50px;
+margin-left: 250px;
+margin-top: 100px;
+}
+.Main_img_upper, .Main_img_bottom{
+ height: 480px;
+ box-shadow: 0px 5px 30px -5px #888888;
+}
+
+.Main_text_upper{
+
+    margin-right: 60px;
+}
+.Main_text_bottom{
+    margin-left: 60px;
+}
+
+
+
+.Main_title_bottom{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+
+}
+
+.Main_text_last{
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 60px;
+}
 
 .header{
     display: flex;
@@ -60,19 +117,18 @@ main {
     top: 38%;
     font-weight: 700;
     font-family: 'Share Tech', sans-serif;
-    font-style: italic;
 
    }
 
 
-nav{
+.header_link_box{
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
     text-decoration: none;
     list-style: none;
     font-weight: 700;
     margin-top: 600px;   
-    left: 300;
+    left: 300px;
  
    }
 
@@ -111,25 +167,55 @@ nav{
     color: rgb(105, 103, 103);
 }
 
-footer{
-    background-color: blue;
-    
-    
+
+.Main_contactbox{
+    background: linear-gradient(45deg, #A5AA98, #949b82);
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    margin-bottom: 30px;
+    border-style: solid;
+    font-size: 25px;
+    margin-bottom: 60px;
+    box-shadow: 0px 5px 30px -5px #888888;
 }
+.Main_email{
+    font-size: 25px;
+    width: 60px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.nav_footer{
+    background: linear-gradient(45deg, #A5AA98, #949b82);
+}
+
 .nav_links_footer{
-    background-color: yellow;
     font-family: 'Roboto Condensed', sans-serif;
     color: black;
     text-decoration: none;
     list-style: none;
     font-weight: 700;
-    margin-top: 600px;   
     left: 300;  
+    margin: 0px;   
+    margin-left: 200px;
+    
     
 }
 .nav_link_footer{
-    background-color: chartreuse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+    background-color: transparent;
     
+
 
 }
 .nav_links_footer li a{
