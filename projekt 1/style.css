@@ -34,12 +34,17 @@ aside {
 
 main {
     width: 100%;
+
     }
 .UPPER{
     margin-left: 150px;
     margin-right: 150px;
     font-size: 25px;
     margin-bottom: 100px;
+    font-family: 'Share Tech', sans-serif;
+    font-style: bold;
+
+
 }
 
 .Main_items_upper{
@@ -63,9 +68,11 @@ main {
 font-size: 50px;
 margin-left: 250px;
 margin-top: 100px;
+font-family: 'Roboto Condensed', sans-serif;
+
 }
 .Main_img_upper, .Main_img_bottom{
- height: 480px;
+ height: 440px;
  box-shadow: 0px 5px 30px -5px #888888;
 }
 
@@ -83,6 +90,8 @@ margin-top: 100px;
     text-align: center;
     margin-bottom: 60px;
     font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+
 
 }
 
@@ -180,16 +189,26 @@ margin-top: 100px;
     font-size: 25px;
     margin-bottom: 60px;
     box-shadow: 0px 5px 30px -5px #888888;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 .Main_email{
-    font-size: 25px;
+    font-size: 27px;
     width: 60px;
-    margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 5px;
+}
+
+#emailBOX {
+	width: 300px;
+	height: 25px;
+	background-color: rgb(223, 217, 217); 
+    border: solid;    
 }
 
 .nav_footer{
     background: linear-gradient(45deg, #A5AA98, #949b82);
+    box-shadow: 0px 5px 30px -5px #888888;
+
 }
 
 .nav_links_footer{
