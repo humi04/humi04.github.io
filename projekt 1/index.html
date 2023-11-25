@@ -11,6 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <title>Professional apartment photography</title>
@@ -65,9 +68,20 @@
             </div>
 
             <div class="Main_contactbox">
-                <p class="Main_contactbox_text">Leave us your email and we will contact you!</p>
-                <label class="Main_email">Email:</label>
-                <input type="text" id="emailBOX" name="Email" placeholder="Your email...">
+
+                <label class="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label class="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label class="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <input type="checkbox" id="tos" name="tos" required>
+                <label class="tos">Accept the Terms of Service</label>
+                <br>
+                <input type="submit" value="Submit">
 
             </div>
         </div>

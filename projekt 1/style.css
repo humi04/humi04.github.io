@@ -86,6 +86,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 
+
 .Main_title_bottom{
     text-align: center;
     margin-bottom: 60px;
@@ -178,31 +179,56 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
 .Main_contactbox{
-    background: linear-gradient(45deg, #A5AA98, #949b82);
-    text-align: center;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 150px;
-    margin-bottom: 30px;
-    border-style: solid;
-    font-size: 25px;
+    width: 600px;
+    margin: 0 auto;
     margin-bottom: 60px;
+    background-color: #A5AA98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     box-shadow: 0px 5px 30px -5px #888888;
-    font-family: 'Roboto Condensed', sans-serif;
-
+    font-family: 'Lato', sans-serif;
+    
+    
 }
-.Main_email{
-    font-size: 27px;
-    width: 60px;
+
+.name {
+    display: block;
     margin-top: 5px;
+    align-items: center;
 }
 
-#emailBOX {
-	width: 300px;
-	height: 25px;
-	background-color: rgb(223, 217, 217); 
-    border: solid;    
+input[type="text"], input[type="email"], textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgb(223, 217, 217);
+    box-shadow: 0px 5px 30px -5px #888888;
+
+    
+}
+
+input[type="submit"] {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: #787975;
+    color: rgb(22, 16, 16);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 30px -5px #888888;
+
+}
+.name{
+    margin-top: 20px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: rgb(70, 61, 61)
 }
 
 .nav_footer{
@@ -212,11 +238,9 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav_links_footer{
-    font-family: 'Roboto Condensed', sans-serif;
-    color: black;
+    font-family: 'Lato', sans-serif;    color: black;
     text-decoration: none;
     list-style: none;
-    font-weight: 700;
     left: 300;  
     margin: 0px;   
     margin-left: 200px;
@@ -231,7 +255,6 @@ font-family: 'Roboto Condensed', sans-serif;
     display: inline-block;
     margin-left: 100px;
     margin-right: 100px;
-    font-style: italic;
     background-color: transparent;
     
 
