@@ -1,12 +1,8 @@
-html {
-    scroll-behavior: smooth;
-}
-
-
 body{
     background-color: rgb(223, 217, 217);
-    margin: 0;
 }
+
+/* Återställer marginaler och padding för body och html */
 body, html {
     margin: 0;
     padding: 0;
@@ -39,8 +35,8 @@ aside {
 
 main {
     width: 100%;
-
     }
+
 .UPPER{
     margin-left: 150px;
     margin-right: 150px;
@@ -57,9 +53,7 @@ main {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    /* justify-content: space-between; 
-    align-items: center;
-    margin-bottom: 30px; */
+
 }
 
 .Main_items_upper > * {
@@ -78,11 +72,11 @@ main {
     flex-wrap: wrap;
 
 }
-
+ 
 .Main_title_upper{
 font-size: 60px;
 margin-top: 100px;
-font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Share Tech', sans-serif;
 text-align: left;
 margin-left: 300px;
 
@@ -119,17 +113,16 @@ margin-left: 300px;
     text-align: left;
     margin-right: 60px;
     flex-basis: 45ch;
+    
 
 }
-
-
 
 
 .Main_title_bottom{
     text-align: center;
     margin-bottom: 60px;
     font-size: 50px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Share Tech', sans-serif;
 
 
 }
@@ -139,6 +132,8 @@ margin-left: 300px;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 60px;
+    font-family: 'Share Tech', sans-serif;
+
 }
 
 .header{
@@ -239,7 +234,7 @@ margin-left: 300px;
     align-items: center;
 }
 
-input[type="text"], input[type="email"], input[type="message"], textarea {
+input[type="text"], input[type="email"], input[class="message"], textarea {
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -323,22 +318,3 @@ input[type="submit"]:hover {
     content:'';
     color: rgb(105, 103, 103);
 }
-
-
-
-
-/* .Main_items_upper {
-    background-color: yellow;
-    display: block;
-    display: flex;
-}
-
-.Main_text_upper {
-    background-color: green;
-} */
-
-/* @media (max-width: 1000px) {
-    .Main_items_upper{
-        display: block;
-    }
-} */
