@@ -2,7 +2,6 @@ body{
     background-color: rgb(223, 217, 217);
 }
 
-/* Återställer marginaler och padding för body och html */
 body, html {
     margin: 0;
     padding: 0;
