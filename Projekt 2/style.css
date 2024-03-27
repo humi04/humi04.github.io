@@ -1,27 +1,38 @@
-
-    
-    
-    /* Kod do JS*/
-  @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
-html,
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 body {
   font-family: 'Roboto Mono', monospace;
   background: #303030;
   height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
 }
-.container {
+
+
+    
+    /* Kod do JS text*/
+
+header{
   height: 100%;
   width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(to right, #111111, #1d1d1d);
+  color: #fff;
 }
+
+
 .text {
   font-size: 80px;
   color: #fafafa;
 }
 .dud {
-  color: #000000;
+  color: #00f8ec;
 }
     /* Kod do JS*/
 
