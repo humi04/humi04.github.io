@@ -8,10 +8,14 @@ body {
   background: linear-gradient(to right, #1d1d1d, #2f2e2e);
 
 
-  
 }
 img{
   height: 100px;
+
+
+
+
+
   
 }
 
@@ -19,7 +23,48 @@ img{
   margin-top: 30px;
   height: 500px;
   background-color: green;
+
 }
+
+.scroller{
+  max-width: 1000px;
+}
+
+.scroller_inside{
+  display:flex;
+  gap: 1rem;
+  padding-block: 1rem;
+  flex-wrap: wrap;
+}
+
+.scroller[data-animated='true']{
+  border: 5px solid lime;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+.scroller[data-animated='true'] .scroller_inside {
+  flex-wrap: nowrap;
+}
+
+@keyframer scroll {
+  to {
+    transform: translate (calc(-50% - 0.5rem));
+  }
+}
+
+
+
+
+
+
+
 
   .box1_main{
     margin-top: 30px;
@@ -30,8 +75,16 @@ img{
     margin-bottom: 30px;    
     margin-right: 60px;
     margin-left: 60px;
-    
-  }  
+    min-height: 50vh;
+
+
+
+  } 
+  
+  
+
+
+
   .box2_main{
     display: flex;
     justify-content: space-between;
@@ -103,11 +156,6 @@ footer {
 }
 
 
-
-
-
-
-
     
     /* Kod do JS text*/
 
@@ -153,6 +201,8 @@ header{
       color: #fff;
       font-weight: bold;
       opacity: .7;
+      scroll-behavior: smooth;
+
 
   }
   .arrow-scroll span {
@@ -172,6 +222,7 @@ header{
       -webkit-animation: sdb 2s infinite;
       animation: sdb 2s infinite;
       box-sizing: border-box;
+
   }
 
 @-webkit-keyframes sdb {
@@ -204,5 +255,21 @@ header{
     /* arrow code*/
 
     
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+    border-radius: 300px;
 
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#00f8ec0e,#00f8ec, #00f8ec0e);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track-piece{
+  background: #2f2e2e
+
+
+}
 
