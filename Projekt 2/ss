@@ -1,0 +1,61 @@
+        <div class="photo_content">
+          <input type="radio" name="slider" id="slide1" checked>
+          <input type="radio" name="slider" id="slide2">
+          <input type="radio" name="slider" id="slide3">
+          <input type="radio" name="slider" id="slide4">
+          <input type="radio" name="slider" id="slide5">
+          <input type="radio" name="slider" id="slide6">
+
+          <div class="slide slide_1">
+            <div class="slide-content">
+              <img src="1 Steve Jobs\Desktop Computer.jpg">
+            </div>
+          </div>
+          
+          <div class="slide slide_2">
+            <div class="slide-content">
+              <img src="1 Steve Jobs\Cheap Computer.jpg">
+            </div>
+          </div>
+
+          <div class="slide slide_3">
+            <div class="slide-content">
+              <img src="1 Steve Jobs\ROG Tytan.jpg">
+            </div>
+          </div>
+
+          <div class="slide slide_4">
+            <div class="slide-content">
+              <img src="1 Steve Jobs\iMac.jpg">
+            </div>
+          </div>
+
+          <div class="slide slide_5">
+            <div class="slide-content">
+              <img src="1 Steve Jobs\Desktop.jpg">
+            </div>
+          </div>
+
+          <div class="slide slide_6">
+            <div class="slide-content">
+              <img src="1 Steve Jobs\Commodore 64.jpg">
+            </div>
+          </div>
+        <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+          <label for="slide6"></label>
+        </div>
+        <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+          <label for="slide6"></label>
+        </div>
+
+        </div>
