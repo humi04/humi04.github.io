@@ -8,12 +8,7 @@ body {
   background: linear-gradient(to right, #1d1d1d, #2f2e2e);
 }
 
-@media screen and (max-width: 767px) {
-main{
 
-}
-
-}
 
 
 
@@ -93,14 +88,13 @@ button{
     display: flex;
     flex-direction: row-reverse;
     color: white;
-    height: 500px;
+    height: 30rem;
     margin-bottom: 30px;    
     margin-right: 60px;
     margin-left: 60px;
     min-height: 50vh;
     margin-bottom: 60px;
     max-width: 100%;
-    grid-template-columns: 1fr 1fr;
     
     
   } 
@@ -342,3 +336,55 @@ header{
 }
 
 
+
+@media screen and (max-width: 767px) {
+  .box2_main {
+    margin-bottom: 10px ;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    height: 25rem;
+
+  }
+  .box1_main {
+    margin-bottom: 10px ;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+    height: 25rem;
+  }
+  .text{
+    font-size: 22px;
+  }
+  main{
+    font-size: 15px;
+  }
+  .main_text1{
+    margin-right: 10px;
+    text-align: center;
+  }
+  .main_text2{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin: 0;
+
+  }
+  footer{
+    font-size: 15px;
+    top: 300px;
+    
+  }
+  .foto_main_2{
+    max-width: 100%;
+  }
+  .container{
+    width: 100%;
+    margin: -6%;
+  }
+
+  
+
+  }
